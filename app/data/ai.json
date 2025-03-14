@@ -1,9 +1,8 @@
 {
 	"author": {
-		"name": "groundzero_ai",
-		"url": "https://groundzeroai.netlify.app/",
-		"image": "https://i.imgur.com/n0Vi63M.png",
-		"twitter": "https://x.com/groundzero_ai"
+		"name": "Artificial Intelligence and Machine Learning",
+		"url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+		"image": "https://skillicons.dev/icons?i=ai"
 	},
 	"lesson": "AI // ML",
 	"months": [
