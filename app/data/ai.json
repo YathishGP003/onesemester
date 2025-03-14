@@ -1,0 +1,576 @@
+{
+	"author": {
+		"name": "groundzero_ai",
+		"url": "https://groundzeroai.netlify.app/",
+		"image": "https://i.imgur.com/n0Vi63M.png",
+		"twitter": "https://x.com/groundzero_ai"
+	},
+	"lesson": "AI // ML",
+	"months": [
+		{
+			"month": 1,
+			"weeks": [
+				{
+					"week": 1,
+					"description": "Python Primer",
+					"tasks": [
+						{
+							"type": "Disclaimer",
+							"content": "Unavailble Embeds",
+							"list": [
+								"Some authors do now allow their videos to be run when embedded. So, you might not be able to run those videos. Apologies for the inconvenience."
+							]
+						},
+						{
+							"type": "Resource",
+							"content": "Python for Everyone",
+							"url": "https://www.py4e.com/"
+						},
+						{
+							"type": "Video",
+							"content": "Numpy Crash Course",
+							"url": "https://www.youtube.com/watch?v=GB9ByFAIAH4"
+						},
+						{
+							"type": "Project",
+							"content": "Prisoner's Dilemma Simulator",
+							"list": [
+								"Create a tournament based prisoner's dillema simulator where multiple strategies compete against each other",
+								"Implement all the popular strategies such as Greedy, Random, Tit-for-Tat, DoubleTitForTat, Moses, Lucifer etc."
+							],
+							"details": {
+								"examples": [
+									"https://github.com/namishh/captivus"
+								]
+							}
+						}
+					]
+				},
+				{
+					"week": 2,
+					"description": "Linear Algebra",
+					"tasks": [
+						{
+							"type": "Topics to Learn",
+							"content": "Matrices And Vectors",
+							"list": [
+								"Vectors: Operations, dot/cross products, norms.",
+								"Matrices: Multiplication, inverses, determinants, eigenvalues."
+							]
+						},
+						{
+							"type": "Book",
+							"content": "Linear Algebra By Justin Skycak",
+							"url": "https://www.justinmath.com/files/justinmath-linearAlgebra.pdf"
+						},
+						{
+							"type": "Resource",
+							"content": "3b1b's Linear Algebra Text",
+							"url": "https://www.3blue1brown.com/lessons/vectors"
+						},
+						{
+							"type": "Playlist",
+							"content": "Linear Algebra by Gilbert Strang",
+							"url": "https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D&index=1"
+						},
+						{
+							"type": "Course",
+							"content": "MIT 18-06 Linear Algebra",
+							"url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/syllabus/",
+							"list": [
+								"Take a look the course tutorials and complete all the assignments"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Basic Calculations",
+							"list": [
+								"Implement basic vector and matrix operations in Python using NumPy"
+							],
+							"hints": [
+								"Use NumPy’s array structure for vectors (1D) and matrices (2D).",
+								"Explore NumPy’s built-in functions for dot products, transposes, and inverses."
+							]
+						}
+					]
+				},
+				{
+					"week": 3,
+					"description": "Probability Theory",
+					"tasks": [
+						{
+							"type": "Topics to Learn",
+							"content": "Probability",
+							"list": [
+								"Probability theory and statistics",
+								"Random variables and probability distributions"
+							]
+						},
+						{
+							"type": "Book",
+							"content": "Probability by Sheldon Ross",
+							"url": "https://www.amazon.com/Probability-Theory-Applications-Sheldon-Ross/dp/013603313X"
+						},
+						{
+							"type": "Playlist",
+							"content": "Probabilistic Systems Analysis and Applied Probability",
+							"url": "https://www.youtube.com/watch?v=j9WZyLZCBzs&list=PLUl4u3cNGP61MdtwGTqZA0MreSaDybji8&index=1"
+						},
+						{
+							"type": "Playlist",
+							"content": "Essence of Probability - 3b1b",
+							"url": "https://www.youtube.com/watch?v=HZGCoVF3YvM&list=PLiAulSm0XXgvCGe63mrAkda9UQ9478YQv&index=1"
+						},
+						{
+							"type": "Course",
+							"content": "MIT 6.041/6.431 Probability",
+							"url": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/pages/syllabus/",
+							"list": [
+								"Take a look the course tutorials and complete all the assignments"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Simulate Probability Distributions",
+							"list": [
+								"Model a casino dice game where players bet on outcomes. Calculate the expected profit/loss for the casino and simulate whether the game is rigged"
+							],
+							"hints": [
+								"Pick distributions like Binomial (win/loss streaks) or Uniform (fair dice) to model game outcomes",
+								"Simulate 10,000 dice rolls with np.random.choice to test fairness"
+							]
+						}
+					]
+				},
+				{
+					"week": 4,
+					"description": "Calculus",
+					"tasks": [
+						{
+							"type": "Playlist",
+							"content": "3b1b's Calculus Playlist",
+							"url": "https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&index=1"
+						},
+						{
+							"type": "Book",
+							"content": "Calculus by Michael Spivak",
+							"url": "https://www.amazon.com/Calculus-4th-Michael-Spivak/dp/0914098918"
+						},
+						{
+							"type": "Project",
+							"content": "Gradient Descent for Predicting Pizza Delivery Times",
+							"list": [
+								"Pretend you’re a food delivery startup optimizing delivery time predictions. Use gradient descent to train a model on historical data (distance vs. time)"
+							],
+							"hints": [
+								"Create fake random data with np.random.normal",
+								"Compute gradients for slope/intercept by before hand"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"month": 2,
+			"weeks": [
+				{
+					"week": 1,
+					"description": "Introduction to ML",
+					"tasks": [
+						{
+							"type": "Playlist",
+							"content": "CS229 by Andrew Ng",
+							"url": "https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
+						},
+						{
+							"type": "Playlist",
+							"content": "Alternative Playlist For ML",
+							"url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=1"
+						},
+						{
+							"type": "Course",
+							"content": "CS229 by Andrew Ng",
+							"url": "https://see.stanford.edu/Course/CS229",
+							"list": [
+								"Take a look the course notes and complete all the assignments"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Predict Movie Success (Rotten Tomatoes Scores)",
+							"list": [
+								"Use linear regression to determine if big budgets actually buy good reviews—or if they’re just flops",
+								"Also add outliers: a big-budget flop and a low-budget gem",
+								"Add a second feature (e.g., star power) to make it multivariate"
+							], 
+							"hints": [
+								"Start with synthetic data: budgets vs. scores, but add noise for realism",
+								"Ask: Does spending more really guarantee better reviews?"
+							]
+						}
+					]
+				},
+				{
+					"week": 2,
+					"description": "Supervised Learning",
+					"tasks": [
+						{
+							"type": "Book",
+							"content": "Pattern Recognition and Machine Learning",
+							"url": "https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf"
+						},
+						{
+							"type": "Video",
+							"content": "Supervised Learning - CS229",
+							"url": "https://www.youtube.com/watch?v=gqKaVgQxEJ0"
+						},
+						{
+							"type": "Project",
+							"content": "Battle Arena",
+							"list": [
+								"Implement a k-nearest neighbors (KNN) classifier",
+								"Transform KNN into a game where players create and train warriors with different attributes (strength, speed, agility, etc.)",
+								"Your KNN algorithm will help warriors learn fighting styles from their \"neighbors\" and predict their chances of winning battles"
+							]
+						}		
+					]
+				},
+				{
+					"week": 3,
+					"description": "Unsupervised Learning",
+					"tasks": [
+						{
+							"type": "Resource",
+							"content": "Deep Learning Book",
+							"url": "https://www.deeplearningbook.org/"
+						},
+						{
+							"type": "Playlist",
+							"content": "Alternative Playlist For DL",
+							"url": "https://www.youtube.com/watch?v=aPfkYu_qiF4&list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU&index=1"
+						},
+						{
+							"type": "Project",
+							"content": "Cosmic Colony Discoverer",
+							"list": [
+								"Transform k-means clustering into a space exploration game where you're an AI tasked with identifying and establishing colonies across a galaxy based on planetary conditions"
+							],
+							"hints": [
+								"Think of your cluster centers (centroids) as potential colony headquarters",
+								"You need to group similar planets together to establish the most efficient colonial network."
+							]
+						}
+					]
+				},
+				{
+					"week": 4,
+					"description": "Model Evaluation and Optimization",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Evaluation Metrics - CS229",
+							"url": "https://www.youtube.com/watch?v=Lb1-iNIOLBw"
+						},
+						{
+							"type": "Playlist",
+							"content": "Model Optimization",
+							"url": "https://www.youtube.com/watch?v=9hToSoZXM9s&list=PL7y-1rk2cCsDOv91McLOnV4kExFfTB7dU&index=1"
+						},
+						{
+							"type": "Project",
+							"content": "AI Sports Coach",
+							"list": [
+								"Transform hyperparameter tuning into an engaging sports analytics project ",
+								"Your goal is to build the ultimate prediction system for player performance and game outcomes"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"month": 3,
+			"weeks": [
+				{
+					"week": 1,
+					"description": "Neural Networks",
+					"tasks": [
+						{
+							"type": "Resource",
+							"content": "Neural Networks and Deep Learning",
+							"url": "http://neuralnetworksanddeeplearning.com/"
+						},
+						{
+							"type": "Playlist",
+							"content": "Neural Networks by 3b1b",
+							"url": "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1"
+						},
+						{
+							"type": "Playlist",
+							"content": "Alternative Playlist For DL/Neural Networks",
+							"url": "https://www.youtube.com/watch?v=CqOfi41LfDw&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=2"
+						},
+						{
+							"type": "Playlist",
+							"content": "CS231N by Andrej Karpathy",
+							"url": "https://www.youtube.com/watch?v=NfnWJUyUJYU&list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC&index=1"
+						},
+						{
+							"type": "Course",
+							"content": "CS231N Resources and Notes",
+							"url": "https://cs231n.github.io/"
+						},
+						{
+							"type": "Project",
+							"content": "Your own Neural Network",
+							"list": [
+								"Implement a simple feedforward neural network using PyTorch",
+								"BONUS: Use 0 libraries (not even numpy or pytorch)"
+							]
+						}
+					]
+				},
+				{
+					"week": 2,
+					"description": "Convolutional Neural Networks",
+					"tasks": [
+						{
+							"type": "Course",
+							"content": "CS231N",
+							"list": [
+								"Continue the course from the last week"
+							]
+						},
+						{
+							"type": "Video",
+							"content": "The Independent Code: CNN Maths + Code",
+							"url": "https://www.youtube.com/watch?v=Lakz2MoHy6o"
+						},
+						{
+							"type": "Project",
+							"content": "Image Classification",
+							"list": [
+								"Build a CNN for image classification using CIFAR-10 dataset"
+							]
+						}
+					]
+				},
+				{
+					"week": 3,
+					"description": "Natural Language Processing",
+					"tasks": [
+						{
+							"type": "Course",
+							"content": "CS224N: NLP With Deep Learning",
+							"url": "https://cs224n.stanford.edu/"
+						},
+						{
+							"type": "Playlist",
+							"content": "CS224N",
+							"url": "https://www.youtube.com/watch?v=rmVRLeJRkl4&list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4"
+						},
+						{
+							"type": "Playlist",
+							"content": "Optional!! Advanced NLP",
+							"url": "https://www.youtube.com/watch?v=dir7e3uozQU&list=PLWnsVgP6CzafDszSy-njjdqnliv5qT0EW&index=1"
+						},
+						{
+							"type": "Project",
+							"content": "Movie Plot Detective",
+							"list": [
+								"Use NLP to guess the genre of a movie plot"
+							],
+							"hints": [
+								"Start by thinking of word embeddings as your AI's \"movie vocabulary.\". \"spaceship\" screams scifi for example"
+							]
+						}
+					]
+				},
+				{
+					"week": 4,
+					"description": "Reinforcement Learning",
+					"tasks": [
+						{
+							"type": "Course",
+							"content": "CS234 - Reinforcement Learning",
+							"url": "http://web.stanford.edu/class/cs234/"
+						},
+						{
+							"type": "Playlist",
+							"content": "CS234 - Reinforcement Learning",
+							"url": "https://www.youtube.com/watch?v=WsvFL-LjA6U&list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX&index=1"
+						},
+						{
+							"type": "Project",
+							"content": "Treasure Hunter Bot",
+							"list": [
+								"Build a reinforcement learning agent to navigate a grid world filled with treasures and pits"
+							],
+							"hints": [
+								"Begin with a simple 5x5 grid where your AI explorer needs to find treasure while avoiding traps",
+								"Instead of thinking about Q-tables as just numbers, visualize them as your AI's adventure memory" 
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"month": 4,
+			"weeks": [
+				{
+					"week": 1,
+					"description": "Kaggle Competitions",
+					"tasks": [
+						{
+							"type": "Resource",
+							"content": "Official Kaggle Tutorials",
+							"url": "https://www.kaggle.com/learn-guide/kaggle-competitions"
+						},
+						{
+							"type": "Project",
+							"content": "Kaggle Compeitions",
+							"list": ["Participate in a Kaggle competition and submit your first model"]
+						}
+					]
+				},
+				{
+					"week": 2,
+					"description": "Advanced Model Architectures",
+					"tasks": [
+						{
+							"type": "Course Slides",
+							"content": "Deep Learning Specialization by Andrew Ng",
+							"url": "https://www.deeplearning.ai/courses/deep-learning-specialization/"
+						},
+						{
+							"type": "Playlists",
+							"content": "ALL parts of Deep Learning Specialization",
+							"urls": [
+								"https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0",
+								"https://www.youtube.com/playlist?list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc"
+							]
+						}
+					]
+				},
+				{
+					"week": 3,
+					"description": "Model Architectures and Deployment",
+					"tasks": [
+						{
+							"type": "Playlists",
+							"content": "Continue Deep Learning Specialization",
+							"urls": [
+								"https://www.youtube.com/playlist?list=PLkDaE6sCZn6E7jZ9sN_xHwSHOdjUxUW_b",
+								"https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF",
+								"https://www.youtube.com/playlist?list=PLkDaE6sCZn6F6wUI9tvS_Gw1vaFAx6rd6"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Implementing models",
+							"list": [
+								"Implement a more complex model, such as a ResNet or LSTM",
+								"For example Cinematography Style Detector (ResNet) or Historical Music Generator (LSTM)"
+							]
+						},
+						{
+							"type": "Playlist",
+							"content": "Deploying Models",
+							"url": "https://www.youtube.com/watch?v=bjsJOl8gz5k&list=PLZoTAELRMXVOAvUbePX1lTdxQR8EY35Z1"
+						},
+						{
+							"type": "Video",
+							"content": "Basic Flask Tutorial",
+							"url": "https://www.youtube.com/watch?v=Z1RJmh_OqeA"
+						},
+						{
+							"type": "Video",
+							"content": "Fast Api Crash Course",
+							"url": "https://www.youtube.com/watch?v=tLKKmouUams"
+						},
+						{
+							"type": "Project",
+							"content": "Deploying models",
+							"list": [
+								"Deploy a machine learning model using Flask or FastAPI"
+							]
+						}
+					]
+				},
+				{
+					"week": 4,
+					"description": "The Final Project. Pick any 1 of these or you can make your own.",
+					"tasks": [
+						{
+							"type": "Project",
+							"content": "AI Dungeon Roguelike",
+							"list": [
+								"Players and AI co-create a fantasy story where the AI dynamically adjusts quests, NPCs, and plot twists based on player choices",
+								"NLP (GPT-like models) to generate dialogue for quirky NPCs",
+								"Reinforcement Learning to make the AI Dungeon Master learn from players’ favorite moments",
+								"Deploy as a Discord bot"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "AI Stand-up Standoff",
+							"list": [
+								"Train two AI comedians (one supervised, one RL-based) to roast each other, with live audience voting deciding the winner",
+								"Probability for joke success rates (e.g., \"Dad jokes have 95% cringe, 5% laughter\")",
+								"Sentiment analysis (NLP) to detect heckler insults from the crowd",
+								"RL agents that learn which jokes work by trial/error",
+								"Deploy as a discord bot with live audience feedback"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"month": 5,
+			"tasks" : [
+				{
+					"type": "Intro",
+					"content": "The final month",
+					"list": [
+						"You have completed the AI course. This section is entirely about research and specialization."
+					]
+				},
+				{
+					"type": "Resource",
+					"content": "arXiv",
+					"url": "https://arxiv.org",
+					"list": [
+						"The holy grail and repository of research papers",
+						"Try to implement as many interesting papers you can find",
+						"Look into all the recent trending papers and try to implement the hardest looking one"
+					]
+				},
+				{
+					"type": "Video",
+					"content": "Tutorial on Writing Research Papers",
+					"url": "https://www.youtube.com/watch?v=1AYxMbYZQ1Y"
+				},
+				{
+					"type": "Project",
+					"content": "Writing",
+					"list": [
+						"Write a blog post or research paper on your last project findings."
+					]
+				},
+				{
+					"type": "Resource",
+					"content": "Interview Questions",
+					"url": "https://github.com/Zeeshan75/Collection-of-interview-questions-ML-pdfs"
+				},
+				{
+					"type": "Resource",
+					"content": "Andrej Karpathy's Channel",
+					"url": "https://www.youtube.com/@AndrejKarpathy"
+				}
+			]
+		}
+	]
+}
