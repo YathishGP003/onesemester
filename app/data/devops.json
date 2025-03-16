@@ -1,0 +1,683 @@
+{
+	"author": {
+		"name": "DevOps",
+		"url": "https://en.wikipedia.org/wiki/DevOps",
+		"image": "https://skillicons.dev/icons?i=azure"
+	},
+	"lesson": "DevOps",
+	"months": [
+		{
+			"month": 1,
+			"weeks": [
+				{
+					"week": 1,
+					"description": "Linux and Shell Scripting",
+					"tasks": [
+						{
+							"type": "Prerequisites",
+							"content": "Basic Setup",
+							"list": [
+								"Install Linux (Ubuntu recommended for beginners)",
+								"Setup Terminal",
+								"Install Git"
+							]
+						},
+						{
+							"type": "Video",
+							"content": "Linux Command Line Basics",
+							"url": "https://youtu.be/ZtqBQ68cfJc"
+						},
+						{
+							"type": "Learning",
+							"content": "Linux Essentials",
+							"list": [
+								"File System Navigation",
+								"Process Management",
+								"Shell Scripting Basics",
+								"Text Processing (grep, sed)",
+								"System Monitoring"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Linux Projects",
+							"list": [
+								"Basic Shell Scripts",
+								"Process Management Script",
+								"Log Analysis Tool"
+							]
+						}
+					]
+				},
+				{
+					"week": 2,
+					"description": "Docker Fundamentals",
+					"tasks": [
+						{
+							"type": "Prerequisites",
+							"content": "Docker Setup",
+							"list": [
+								"Install Docker Desktop/Engine",
+								"Setup Docker Hub account",
+								"Basic Linux knowledge (from Week 1)"
+							]
+						},
+						{
+							"type": "Video",
+							"content": "Docker Crash Course for Beginners",
+							"url": "https://youtu.be/pg19Z8LL06w"
+						},
+						{
+							"type": "Learning",
+							"content": "Docker Basics",
+							"list": [
+								"Understanding Containers vs VMs",
+								"Basic Docker Commands",
+								"Working with Images",
+								"Container Lifecycle",
+								"Docker Hub and Registries"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Docker Projects",
+							"list": [
+								"Containerize a Simple App",
+								"Work with Docker Hub",
+								"Container Management"
+							]
+						}
+					]
+				},
+				{
+					"week": 3,
+					"description": "Advanced Docker & Compose",
+					"tasks": [
+						{
+							"type": "Learning",
+							"content": "Docker Advanced",
+							"list": [
+								"Multi-stage Builds",
+								"Docker Compose",
+								"Docker Networks",
+								"Volume Management",
+								"Container Security Basics"
+							]
+						},
+						{
+							"type": "Video",
+							"content": "Docker Compose Deep Dive",
+							"url": "https://youtu.be/HG6yIjZapSA"
+						},
+						{
+							"type": "Project",
+							"content": "Advanced Docker Projects",
+							"list": [
+								"Multi-container Applications",
+								"Custom Network Setup",
+								"Production-ready Dockerfiles"
+							]
+						}
+					]
+				},
+				{
+					"week": 4,
+					"description": "Git and CI/CD Basics",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Git and GitHub for Beginners",
+							"url": "https://youtu.be/RGOj5yH7evk"
+						},
+						{
+							"type": "Learning",
+							"content": "Version Control & CI",
+							"list": [
+								"Git Fundamentals",
+								"GitHub Actions Basics",
+								"Basic CI/CD Concepts",
+								"Automated Testing",
+								"Basic Deployment Flows"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "CI/CD Projects",
+							"list": [
+								"Setup GitHub Actions",
+								"Automate Docker Builds",
+								"Basic Deployment Pipeline"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"month": 2,
+			"weeks": [
+				{
+					"week": 1,
+					"description": "Networking and Load Balancing",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Networking Fundamentals",
+							"url": "https://youtu.be/qiQR5rTSshw"
+						},
+						{
+							"type": "Learning",
+							"content": "Network Concepts",
+							"list": [
+								"TCP/IP Fundamentals",
+								"Load Balancing Patterns",
+								"Reverse Proxies",
+								"gRPC Basics",
+								"Service Discovery"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Network Projects",
+							"list": [
+								"Setup Load Balancer",
+								"Implement Service Discovery",
+								"gRPC Service Setup"
+							]
+						}
+					]
+				},
+				{
+					"week": 2,
+					"description": "System Design & Scaling",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "System Design Fundamentals",
+							"url": "https://youtu.be/i53Gi_K3o7I"
+						},
+						{
+							"type": "Learning",
+							"content": "Scaling Concepts",
+							"list": [
+								"Horizontal vs Vertical Scaling",
+								"Database Scaling",
+								"Caching Strategies",
+								"Message Queues",
+								"Microservices Architecture"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Scaling Projects",
+							"list": [
+								"Implement Caching Layer",
+								"Setup Message Queue",
+								"Scale Microservices"
+							]
+						}
+					]
+				},
+				{
+					"week": 3,
+					"description": "Cloud Infrastructure - AWS Part 1",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "AWS Core Services",
+							"url": "https://youtu.be/3hLmDS179YE"
+						},
+						{
+							"type": "Learning",
+							"content": "AWS Fundamentals",
+							"list": [
+								"IAM & Security",
+								"VPC Networking",
+								"EC2 & Auto Scaling",
+								"S3 Storage",
+								"RDS Basics"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "AWS Projects",
+							"list": [
+								"Setup VPC & Network",
+								"Deploy Scalable App",
+								"Implement S3 Storage"
+							]
+						}
+					]
+				},
+				{
+					"week": 4,
+					"description": "Cloud Infrastructure - AWS Part 2",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "AWS Advanced Services",
+							"url": "https://youtu.be/8TlukLu11Yo"
+						},
+						{
+							"type": "Learning",
+							"content": "Advanced AWS",
+							"list": [
+								"ECS & Container Services",
+								"Lambda & Serverless",
+								"CloudWatch Monitoring",
+								"Route 53 & CDN",
+								"Cost Management"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Advanced Cloud Projects",
+							"list": [
+								"Containerized Deployment",
+								"Serverless Application",
+								"Monitoring Setup"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"month": 3,
+			"weeks": [
+				{
+					"week": 1,
+					"description": "Infrastructure as Code",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Terraform Fundamentals",
+							"url": "https://youtu.be/l5k1ai_GBDE"
+						},
+						{
+							"type": "Learning",
+							"content": "IaC Fundamentals",
+							"list": [
+								"Infrastructure as Code Concepts",
+								"Terraform Basics",
+								"AWS with Terraform",
+								"State Management",
+								"IaC Best Practices"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Terraform Projects",
+							"list": [
+								"AWS Infrastructure with Terraform",
+								"Multi-environment Setup",
+								"State Management Implementation"
+							]
+						}
+					]
+				},
+				{
+					"week": 2,
+					"description": "Kubernetes Fundamentals",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Kubernetes Crash Course",
+							"url": "https://youtu.be/s_o8dwzRlu4"
+						},
+						{
+							"type": "Learning",
+							"content": "K8s Basics",
+							"list": [
+								"Kubernetes Architecture",
+								"Pods and Deployments",
+								"Services and Networking",
+								"ConfigMaps and Secrets",
+								"Basic Cluster Management"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "K8s Projects",
+							"list": [
+								"Deploy Multi-tier Application",
+								"Setup Basic Monitoring",
+								"Implement Rolling Updates"
+							]
+						}
+					]
+				},
+				{
+					"week": 3,
+					"description": "Advanced Kubernetes",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Advanced Kubernetes Features",
+							"url": "https://youtu.be/0oTh1CXRaQ0"
+						},
+						{
+							"type": "Learning",
+							"content": "K8s Advanced",
+							"list": [
+								"Helm Charts",
+								"Custom Controllers",
+								"Operators Pattern",
+								"Advanced Networking",
+								"Security Policies"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Advanced K8s Projects",
+							"list": [
+								"Create Helm Charts",
+								"Build Custom Operator",
+								"Implement Security Policies"
+							]
+						}
+					]
+				},
+				{
+					"week": 4,
+					"description": "Observability & Monitoring",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Modern Observability Stack",
+							"url": "https://youtu.be/9TJx7QTrTyo"
+						},
+						{
+							"type": "Learning",
+							"content": "Monitoring Stack",
+							"list": [
+								"Prometheus & Grafana",
+								"Distributed Tracing",
+								"Log Aggregation",
+								"Alerting Systems",
+								"SLOs and SLIs"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Observability Projects",
+							"list": [
+								"Setup Monitoring Stack",
+								"Implement Tracing",
+								"Create Alert Rules"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"month": 4,
+			"weeks": [
+				{
+					"week": 1,
+					"description": "Security and DevSecOps",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "DevSecOps Fundamentals",
+							"url": "https://youtu.be/gLJdrXPn0ns"
+						},
+						{
+							"type": "Learning",
+							"content": "Security Practices",
+							"list": [
+								"Container Security",
+								"Infrastructure Security",
+								"Secret Management",
+								"Security Scanning",
+								"Compliance Automation"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Security Projects",
+							"list": [
+								"Implement Vault",
+								"Setup Security Scanning",
+								"Automate Compliance Checks"
+							]
+						}
+					]
+				},
+				{
+					"week": 2,
+					"description": "Advanced Microservices",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Microservices Architecture",
+							"url": "https://youtu.be/VzBGi_n65iU"
+						},
+						{
+							"type": "Learning",
+							"content": "Microservices Patterns",
+							"list": [
+								"Service Mesh (Istio)",
+								"API Gateway Patterns",
+								"Event-Driven Architecture",
+								"Circuit Breaking",
+								"Distributed Tracing"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Microservices Projects",
+							"list": [
+								"Implement Service Mesh",
+								"Build Event-Driven System",
+								"Setup Distributed Tracing"
+							]
+						}
+					]
+				},
+				{
+					"week": 3,
+					"description": "Site Reliability Engineering",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "SRE Fundamentals",
+							"url": "https://youtu.be/uTEL8Ff1Zvk"
+						},
+						{
+							"type": "Learning",
+							"content": "SRE Practices",
+							"list": [
+								"Error Budgets",
+								"SLOs and SLIs",
+								"Capacity Planning",
+								"Incident Management",
+								"Automation and Toil"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "SRE Implementation",
+							"list": [
+								"Define and Track SLOs",
+								"Implement Error Budgets",
+								"Automate Toil Tasks"
+							]
+						}
+					]
+				},
+				{
+					"week": 4,
+					"description": "Chaos Engineering",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Chaos Engineering Basics",
+							"url": "https://youtu.be/7UKYnbUbzFM"
+						},
+						{
+							"type": "Learning",
+							"content": "Chaos Practices",
+							"list": [
+								"Principles of Chaos",
+								"Failure Injection",
+								"Resilience Testing",
+								"Game Days",
+								"Recovery Testing"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Chaos Projects",
+							"list": [
+								"Implement Chaos Tests",
+								"Run Game Day",
+								"Build Resilience Tests"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"month": 5,
+			"weeks": [
+				{
+					"week": 1,
+					"description": "Performance Engineering",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Performance Engineering",
+							"url": "https://youtu.be/VDW5oxTaN00"
+						},
+						{
+							"type": "Learning",
+							"content": "Performance Practices",
+							"list": [
+								"Load Testing",
+								"Performance Profiling",
+								"Database Optimization",
+								"Caching Strategies",
+								"Resource Optimization"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Performance Projects",
+							"list": [
+								"Implement Load Tests",
+								"Profile and Optimize",
+								"Cache Implementation"
+							]
+						}
+					]
+				},
+				{
+					"week": 2,
+					"description": "Advanced Cloud Architecture",
+					"tasks": [
+						{
+							"type": "Learning",
+							"content": "Cloud Architecture",
+							"list": [
+								"Multi-cloud Strategy",
+								"Serverless Architecture",
+								"Event-Driven Design",
+								"Disaster Recovery",
+								"Cost Optimization"
+							]
+						},
+						{
+							"type": "Resource",
+							"content": "Architecture Resources",
+							"list": [
+								"AWS Well-Architected",
+								"Cloud Design Patterns",
+								"Serverless Patterns"
+							],
+							"url": "https://aws.amazon.com/architecture/well-architected/"
+						},
+						{
+							"type": "Project",
+							"content": "Architecture Projects",
+							"list": [
+								"Multi-cloud Setup",
+								"Serverless System",
+								"DR Implementation"
+							]
+						}
+					]
+				},
+				{
+					"week": 3,
+					"description": "FinOps and Cost Management",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "FinOps Fundamentals",
+							"url": "https://youtu.be/GDLpQMsQFz4"
+						},
+						{
+							"type": "Learning",
+							"content": "Cost Management",
+							"list": [
+								"Resource Optimization",
+								"Cost Monitoring",
+								"Budget Management",
+								"FinOps Practices",
+								"Vendor Management"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "FinOps Projects",
+							"list": [
+								"Cost Dashboard",
+								"Budget Alerts",
+								"Optimization Tools"
+							]
+						}
+					]
+				},
+				{
+					"week": 4,
+					"description": "Career Development",
+					"tasks": [
+						{
+							"type": "Learning",
+							"content": "Professional Growth",
+							"list": [
+								"DevOps Best Practices",
+								"Team Collaboration",
+								"Technical Leadership",
+								"Interview Preparation",
+								"Portfolio Building"
+							]
+						},
+						{
+							"type": "Resource",
+							"content": "Career Resources",
+							"list": [
+								"DevOps Roadmap",
+								"Certification Paths",
+								"Community Engagement"
+							],
+							"url": "https://roadmap.sh/devops"
+						},
+						{
+							"type": "Project",
+							"content": "Portfolio Projects",
+							"list": [
+								"Document Journey",
+								"Create Tech Blog",
+								"Open Source Contribution"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
