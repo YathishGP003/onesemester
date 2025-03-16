@@ -1,0 +1,621 @@
+{
+	"author": {
+		"name": "Data Structures and Algorithms",
+		"url": "https://en.wikipedia.org/wiki/Algorithms_%2B_Data_Structures_%3D_Programs",
+		"image": "https://skillicons.dev/icons?i=githubactions"
+	},
+	"lesson": "Practical DSA",
+	"months": [
+		{
+			"month": 1,
+			"weeks": [
+				{
+					"week": 1,
+					"description": "Starting Out",
+					"tasks": [
+						{
+							"type": "Disclaimer",
+							"content": "Please Read",
+							"list": [
+								"This is a very fast paced dsa course as there is simply too much to do.",
+								"And still, the course does not complete 100% of DSA. One semester is NOT enough.",
+								"Some concepts are not given in resources but are taught through the projects.",
+								"Lastly this course DOES NOT focus on Leetcode and Codeforces or job interviews. (The title should have given it away)"
+							]
+						},
+						{
+							"type": "Video",
+							"content": "C++ Tutorial",
+							"url": "https://www.youtube.com/watch?v=-TkoO8Z07hI"
+						},
+						{
+							"type": "Project",
+							"content": "CLI Hangman",
+							"list": [
+								"Implement a CLI Hangman game",
+								"Show the ascii character of hangman and then a input prompt at the bottom",
+								"Try using Objetct Oriented Programming for making a cleaner codebase",
+								"Make an infinite game mode: user keeps playing until he loses and words get progressively harder",
+								"Keep a scoreboard and track user's progress of top 5 highscores (make it persistent)",
+								"Add an option where the user can choose the category of words he wants to play"
+							]
+						},
+						{
+							"type": "Video",
+							"content": "ImGUI Tutorial",
+							"url": "https://www.youtube.com/watch?v=vWXrFetSH8w",
+							"list": [
+								"You can use imgui to make GUI version of the projects. Otherwise most of them can be implemented in the cli itself."
+							]
+						},
+						{
+							"type": "Resource",
+							"content": "Static arrays",
+							"url": "https://hank.feild.org/feild-guide-cpp/arrays.html"
+						},
+						{
+							"type": "Video",
+							"content": "Dynamic Arrays",
+							"url": "https://www.youtube.com/watch?v=igSuiwB7pBU"
+						},
+						{
+							"type": "Resource",
+							"content": "Multidimensional Arrays",
+							"url": "https://www.cplusoop.com/programming-cplus/module4/dynamic-multidimensional-arrays.php"
+						},
+						{
+							"type": "Resource",
+							"content": "Basics of Strings",
+							"url": "https://www.kindsonthegenius.com/cplusplus/c-string-manipulation/"
+						},
+						{
+							"type": "Project",
+							"content": "Dynamic Array Implementation",
+							"list": [
+								"Build a Python-like list with automatic resizing"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Password Validator and Generator",
+							"list": [
+								"Validate a password based - atleast 12 characters long, atleast 1 special character, 1 uppercase, 1 lowercase and 1 number",
+								"Generate a strong password based on user input"
+							],
+							"hints": [
+								"Split into validator (check rules) and generator (random chars).",
+								"Use <regex> to match password patterns",
+								"Use rand() or <random> to generate secure passwords"
+							]
+						}
+					]
+				},
+				{
+					"week": 2,
+					"description": "Linked Lists",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Singly Linked List",
+							"url": "https://www.youtube.com/watch?v=VOpjAHCee7c"
+						},
+						{
+							"type": "Video",
+							"content": "Doubly Linked List",
+							"url": "https://www.youtube.com/watch?v=VOQNf1VxU3Q"
+						},
+						{
+							"type": "Resource",
+							"content": "Circular Linked List",
+							"url": "https://www.softwaretestinghelp.com/circular-linked-list/"
+						},
+						{
+							"type": "Resource",
+							"content": "Cycle Detection in a Linked List",
+							"url": "https://cp-algorithms.com/others/tortoise_and_hare.html"
+						},
+						{
+							"type": "Resource",
+							"content": "Merge Two Sorted Linked Lists",
+							"url": "https://takeuforward.org/data-structure/merge-two-sorted-linked-lists/"
+						},
+						{
+							"type": "Resource",
+							"content": "XOR Linked List",
+							"url": "https://www.geeksforgeeks.org/xor-linked-list-a-memory-efficient-doubly-linked-list-set-1/"
+						},
+						{
+							"type": "Project",
+							"content": "Simulating browser history",
+							"list": [
+								"Using XOR linked list, create a basic browser history implementation where you can go back and forward"
+							],
+							"hints": [
+								"Store url + xor_ptr (prev ^ next addresses as uintptr_t)",
+								"Track current node + previous node to compute next"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Make a music player",
+							"list": [
+								"Use doubly linked list to implement a music player",
+								"Enable people to add, remove or move music to different playlists",
+								"Add features like play next, play previous, shuffle, etc."
+							]
+						}
+					]
+				},
+				{
+					"week": 3,
+					"description": "Stacks and Queues",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Implement a stack using a linked list",
+							"url": "https://www.youtube.com/watch?v=MuwxQ2IB8lQ"
+						},
+						{
+							"type": "Video",
+							"content": "Implement a queue using a linked list",
+							"url": "https://www.youtube.com/watch?v=A5_XdiK4J8A"
+						},
+						{
+							"type": "Resource",
+							"content": "Monotonic Stack",
+							"url": "https://leetcode.com/discuss/study-guide/2347639/a-comprehensive-guide-and-template-for-monotonic-stack-based-problems"
+						},
+						{
+							"type": "Resource",
+							"content": "Circular Queue",
+							"url": "https://www.geeksforgeeks.org/introduction-to-circular-queue/"
+						},
+						{
+							"type": "Project",
+							"content": "Make and simulate a restaurant order system",
+							"list": [
+								"Implement a circular queue to store orders",
+								"Handle order placement, retrieval, and cancellation",
+								"Implement a queue called ongoing orders to keep track of orders in progress"
+							],
+							"hints": [
+								"Maintain a second queue for ongoing orders, process orders in progress, and allow cancellation with a dequeue() operation"
+							]
+						}
+					]
+				},
+				{
+					"week": 4,
+					"description": "Hashtables, Tries and Pattern Matching",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Implement a hashtable",
+							"url": "https://www.youtube.com/watch?v=2_3fR-k-LzI"
+						},
+						{
+							"type": "Video",
+							"content": "Collision Handling",
+							"url": "https://www.youtube.com/watch?v=td0h7cv4cc0"
+						},
+						{
+							"type": "Video",
+							"content": "Implement a trie",
+							"url": "https://www.youtube.com/watch?v=3CbFFVHQrk4"
+						},
+						{
+							"type": "Resource",
+							"content": "Boyer Moore String Matching Algorithm",
+							"url": "https://medium.com/@siddharth.21/the-boyer-moore-string-search-algorithm-674906cab162"
+						},
+						{
+							"type": "Projects",
+							"content": "Easy CLI Projects",
+							"list": [
+								"Implement a phone directory with hashmaps",
+								"A very simple autocomplete text input",
+								"CLI based text search tool that efficiently finds patterns in large codebases"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"month": 2,
+			"weeks": [
+				{
+					"week": 1,
+					"description": "Trees and BSTs",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Introduction to Trees",
+							"url": "https://www.youtube.com/watch?v=UbhlOk7vjVY"
+						},
+						{
+							"type": "Video",
+							"content": "Binary Tree Traversals",
+							"url": "https://www.youtube.com/watch?v=gm8DUJJhmY4"
+						},
+						{
+							"type": "Resource",
+							"content": "BFS on a Binary Tree",
+							"url": "https://www.enjoyalgorithms.com/blog/level-order-traversal-of-binary-tree"
+						},
+						{
+							"type": "Video",
+							"content": "Video Series for Binary Search Trees",
+							"url": "https://www.youtube.com/watch?v=sf_9w653xdE&list=PLTxllHdfUq4d-DE16EDkpeb8Z68DU7Z_Q&index=1"
+						},
+						{
+							"type": "Video",
+							"content": "AVL Trees Introduction",
+							"url": "https://www.youtube.com/watch?v=FNeL18KsWPc"
+						},
+						{
+							"type": "Project",
+							"content": "CLI Roguelike Adventure Game",
+							"list": [
+								"Build a text-based roguelike dungeon crawler where players navigate procedurally generated dungeons using binary trees, manage loot with a BST, and face enemies balanced by an AVL tree"
+							],
+							"details": {
+								"features": [
+									"Each dungeon floor is a binary tree where nodes represent rooms. Players choose left or right to explore, with risks and rewards in each path.",
+									"Players collect loot (weapons, potions) stored in a BST sorted by power level. Fast search lets players strategize during combat.",
+									"Enemy difficulty scales dynamically using an AVL tree to ensure balanced encounters (no unfair fights!)."
+								]
+							},
+							"hints": [
+								"Use recursion to explore left/right in the binary tree, representing rooms.",
+								"Ensure balanced enemy difficulty by performing proper AVL rotations during combat."
+							]
+						}
+					]
+				},
+				{
+					"week": 2,
+					"description": "Graphs Basics",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Introduction to Graphs",
+							"url": "https://www.youtube.com/watch?v=gXgEDyodOJU"
+						},
+						{
+							"type": "Video",
+							"content": "Edge List Representation",
+							"url": "https://www.youtube.com/watch?v=ZdY1Fp9dKzs"
+						},
+						{
+							"type": "Video",
+							"content": "Adjacency Matrix Representation",
+							"url": "https://www.youtube.com/watch?v=9C2cpQZVRBA"
+						},
+						{
+							"type": "Video",
+							"content": "Adjacency List Representation",
+							"url": "https://www.youtube.com/watch?v=k1wraWzqtvQ"
+						},
+						{
+							"type": "Video",
+							"content": "BFS and DFS",
+							"url": "https://www.youtube.com/watch?v=pcKY4hjDrxk"
+						},
+						{
+							"type": "Video",
+							"content": "Toplogical Sorting",
+							"url": "https://www.youtube.com/watch?v=eL-KzMXSXXI"
+						},
+						{
+							"type": "Resource",
+							"content": "Detecting Cycles",
+							"urls": [
+								"https://www.geeksforgeeks.org/detect-cycle-in-a-graph/",
+								"https://www.geeksforgeeks.org/detect-cycle-undirected-graph/"
+							]
+						},
+						{
+							"type": "Project",
+							"content": "Social Network Friend Recommendation System",
+							"list": [
+								"Use adjacency matrix for direct friendships",
+								"BFS to find friends-of-friends",
+								"Identify close-knit groups",
+								"Add features like mutual friend counting and community detection"
+							],
+							"hints": [
+								"Represent direct friendships as a matrix, where matrix[i][j] is 1 if there's a friendship between users i and j.",
+								"Implement cycle detection (DFS or Union-Find) to identify closely connected groups of users.",
+								"Count mutual friends by checking common neighbors in the adjacency matrix for two users."
+							]
+						}
+					]
+				},
+				{
+					"week": 3,
+					"description": "Heaps and Priority Queues",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Heaps and Heap Sort",
+							"url": "https://www.youtube.com/watch?v=B7hVxCmfPtM"
+						},
+						{
+							"type": "Resource",
+							"content": "Priority Queues",
+							"url": "https://www.sanfoundry.com/cpp-program-implements-priority-queue/"
+						},
+						{
+							"type": "Resource",
+							"content": "K Way Merge",
+							"url": "https://www.geeksforgeeks.org/merge-k-sorted-arrays/"
+						},
+						{
+							"type": "Resource",
+							"content": "Djikstra's Algorithm",
+							"url": "https://www.youtube.com/watch?v=CerlT7tTZfY"
+						},
+						{
+							"type": "Project",
+							"content": "Logistics Network Optimizer",
+							"list": [
+								"Combine heap-based algorithms and graph theory to build a delivery optimization"
+							],
+							"details": {
+								"features": [
+									"Route planning",
+									"Multi-warehouse scheduling",
+									"Priority-based task management with custom heaps"
+								]
+							}, 
+							"hints": [
+								"Use Dijkstra’s algorithm with a min-heap to efficiently find the shortest path",
+								" k-way merge algorithm with heaps to efficiently schedule deliveries across multiple warehouses."
+							]
+						}
+					]
+				},
+				{
+					"week": 4,
+					"description": "Dynamic Programming",
+					"tasks": [
+						{
+							"type": "Video",
+							"content": "Dynamic Programming Basics",
+							"url": "https://www.youtube.com/watch?v=gK8KmTDtX8E&t=395s"
+						},
+						{
+							"type": "Playlist",
+							"content": "Complete this playlist",
+							"url": "https://www.youtube.com/watch?v=5dRGRueKU3M&list=PLJULIlvhz0rE83NKhnq7acXYIeA0o1dXb&index=1"
+						},
+						{
+							"type": "Resource",
+							"content": "Memoization",
+							"url": "https://www.geeksforgeeks.org/what-is-memoization-a-complete-tutorial/"
+						},
+						{
+							"type": "Resource",
+							"content": "Tabulation",
+							"url": "https://www.geeksforgeeks.org/tabulation-vs-memoization/"
+						},
+						{
+							"type": "Project",
+							"content": "Music Remix Generator",
+							"list": [
+								"Use dynamic programming to generate a music remix",
+								"Use segments like ('verse', 30, 'V1'), ('chorus', 25, 'C1'), etc and generate the most compatible remix"
+							],
+							"hints": [
+								"Create a matrix to store compatibility scores between different segments",
+								"Track the best possible remix configuration at each step using DP",
+								"Consider both segment order nd total length when selecting segments"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"month": 3,
+			"tasks": [
+				{
+					"type": "Video",
+					"content": "Video Series on Suffix Trees",
+					"url": "https://www.youtube.com/watch?v=llTjA5SeS7k&list=PL2mpR0RYFQsDFNyRsTNcWkFTHTkxWREeb&index=2"
+				},
+				{
+					"type": "Video",
+					"content": "Compressed Tries",
+					"url": "https://www.youtube.com/watch?v=ASWUw5EeMdo"
+				},
+				{
+					"type": "Resource",
+					"content": "Compressed Tries",
+					"url": "https://www.geeksforgeeks.org/compressed-tries/"
+				},
+				{
+					"type": "Project",
+					"content": "Plagiarism Detector",
+					"list": [
+						"Given two documents, analyze the similarity between them using compressed tries and suffix trees"
+					]
+				},
+				{
+					"type": "Video",
+					"url": "https://www.youtube.com/watch?v=V5-7GzOfADQ",
+					"content": "KMP Pattern Matching"
+				},
+				{
+					"type": "Video",
+					"url": "https://www.youtube.com/watch?v=qQ8vS2btsxI",
+					"content": "Robin Karp Pattern Matching"
+				},
+				{
+					"type": "Project",
+					"content": "DNA Muatation Detector",
+					"list": [
+						"Generate a sample DNA sequence with known patterns and mutations",
+						"Add some example disease patterns",
+						"Analyze sequences and detect mutations and diseases",
+						"Identify disease-causing genetic patterns",
+						"Include drug resistance pattern detection"
+					],
+					"hints": [
+						"Use Rabin-Karp for fast substring search of mutation or disease-causing patterns, and KMP for efficient matching of fixed sequences"
+					]
+				},
+				{
+					"type": "Video",
+					"url": "https://www.youtube.com/watch?v=YVZttWzvyw8",
+					"content": "Manacher's Algorithm"
+				},
+				{
+					"type": "Video",
+					"content": "LRU Cache",
+					"url": "https://www.youtube.com/watch?v=z9bJUPxzFOw"
+				},
+				{
+					"type": "Video",
+					"content": "LRU Cache But Advanced",
+					"url": "https://www.youtube.com/watch?v=Ud6lzJ_IWIU"
+				},
+				{
+					"type": "Video",
+					"content": "LFU Cache",
+					"url": "https://www.youtube.com/watch?v=rSwmpWaJPG0"
+				},
+				{
+					"type": "Resource",
+					"content": "Write through vs Write around",
+					"url": "https://www.geeksforgeeks.org/write-through-and-write-back-in-cache/"
+				},
+				{
+					"type": "Project",
+					"content": "E-Commerce Product Recommendation Engine",
+					"list": [
+						"DSA Used: LRU Cache, LFU Cache, Bloom Filters",
+						"Browse History: LRU cache for recently viewed products",
+						"Popular Items: LFU cache for frequently purchased items",
+						"Cart System: Two-level cache (session + persistent)",
+						"Search Suggestions: Cached based on popular queries",
+						"A/B Testing: Compare different caching strategies"
+					]
+				},
+				{
+					"type": "Playlist",
+					"content": "Sorting Algorithms",
+					"url": "https://www.youtube.com/watch?v=pkkFqlG0Hds&list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U&index=1"
+				},
+				{
+					"type": "Playlist",
+					"content": "Parallel C++",
+					"url": "https://www.youtube.com/watch?v=Zu5JcxZt_f8&list=PLxNPSjHT5qvsGKsAhirvZn7W73pXhXpfv&index=1"
+				},
+				{
+					"type": "Playlist",
+					"content": "Threading in C++",
+					"url": "https://www.youtube.com/watch?v=TPVH_coGAQs&list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp&index=1"
+				},
+				{
+					"type": "Resource",
+					"content": "Atomic C++",
+					"url": "https://www.modernescpp.com/index.php/atomic-ref/"
+				},
+				{
+					"type": "Project",
+					"content": "Distributed File Search Engine with Multithreading",
+					"list": [
+						"DSA Used: Trie, Hash Maps, Priority Queues",
+						"File Indexing: Use parallel threads to index files across different folders",
+						"Search Query Execution: Implement multi-threaded query processing to handle multiple user searches concurrently",
+						"Scalability: Design the system to handle thousands of concurrent search queries efficiently",
+						"Sorting: Sort files on the basis of size, modification time, etc",
+						"Real-Time Updates: Ensure new files are indexed and available for search without downtime"
+					]
+				}
+			]
+		},
+		{
+			"month": 4,
+			"tasks": [
+				{
+					"type": "Project",
+					"content": "Matchmaking & Tournament System",
+					"list": [
+						"Trees Used: AVL Tree (skill matching), BST (streak tracking), Binary Tree (tournaments), Graphs (rivalries)",
+						"Skill-Based Matchmaker: AVL tree for range queries of similarly skilled players",
+						"Tournament Engine: Binary tree for bracket generation and progression tracking",
+						"Rivalry Network: Graph structure tracking player histories and matchup patterns",
+						"Win Streak System: BST optimized for tracking player momentum",
+						"Real-Time Features: Priority queues for live match queueing",
+						"Balancing Features: Tree rotations ensure O(log n) operations as player base grows"
+					]
+				},
+				{
+					"type": "Project",
+					"content": "Stock Trading Simulator",
+					"list": [
+						"Use: Dynamic Programming, Sliding Window, Priority Queues",
+						"Portfolio Optimization: DP for max profit with buy/sell constraints",
+						"Real-Time Alerts: Sliding window for moving price averages",
+						"Order Matching Engine: Priority queues for limit orders"
+					]
+				},
+				{
+					"type": "Project",
+					"content": "Multi-Threaded Web Crawler",
+					"list": [
+						"DSA Used: Concurrency, Hash Tables, Tries.",
+						"Parallel Crawling: Thread-safe queues for URL management",
+						"Duplicate Detection: Bloom filters or hash tables",
+						"Keyword Indexer: Trie for efficient word search"
+					]
+				},
+				{
+					"type": "Project",
+					"content": "Scalable URL Shortener",
+					"list": [
+						"DSA Used: Consistent Hashing, LRU Cache, Base62 Encoding",
+						"Distributed Storage: Consistent hashing for sharding.",
+						"Rate Limiting: Sliding window counters.",
+						"Analytics Dashboard: Hash tables for click tracking."
+					]
+				}
+			]
+		},
+		{
+			"month": 5,
+			"tasks": [
+				{
+					"type": "Project",
+					"content": "2D RPG Game",
+					"image": "https://i.imgur.com/hW5IioL.png",
+					"list": [
+						"Of course you are not expected to create all the graphics, even flat shapes would work",
+						"Grid-based map with obstacles (trees, rivers).",
+						"Units (e.g., soldiers, tanks) navigate using A* with heaps for priority.",
+						"OPTIONAL: Handle dynamic obstacles (e.g., collapsing bridges) with incremental graph updates",
+						"Efficiently detect collisions between hundreds of units using quadtrees",
+						"Track unit positions and states.",
+						"AI builds units/structures based on decision trees",
+						"Use minimax for tactical decisions",
+						"Prioritize common currency vs rare currency collection based on urgency",
+						"Track resources in real-time with hash tables",
+						"OPTIONAL: Use perlin noise to generate random maps with forests, mountains, and chokepoints.",
+						"OPTIONAL: Record and replay matches"
+					],
+					"hints": [
+						"Group your objects into batches based on textures to minimize state changes. Use a single call to glDrawArrays() or glDrawElements() to render large numbers of objects at once.",
+						"Update the graph incrementally when obstacles (e.g., collapsing bridges) change, adjusting the A* algorithm on-the-fly",
+						"Use hash tables to track unit positions and states for quick look-up and updates.",
+						"Implement decision trees for AI to build units/structures based on game state.",
+						"Priotizing the currency should be on the basis of the items in the hash table",
+						"Store unit actions in linked lists to record and replay matches, allowing for game replays."
+					]
+				}
+			]
+		}
+	]
+}
