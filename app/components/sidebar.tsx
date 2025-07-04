@@ -67,11 +67,17 @@ export default function Sidebar() {
 				>
 					Beyond
 				</a>
+				<a href="/leetcode"
+					className="w-full block text-left  px-4 py-2 transition-color bg-transparent hover:bg-neutral-800"
+				>
+					Leetcode snippet
+				</a>
 				<a href="/gitandgithub"
 					className="w-full block text-left  px-4 py-2 transition-color bg-transparent hover:bg-neutral-800"
 				>
 					Github
 				</a>
+				
 			</aside>
 		</>
 	);
